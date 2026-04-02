@@ -237,7 +237,7 @@ body::before {
 .btn-ghost { display:inline-flex; align-items:center; gap:10px; background:rgba(255,255,255,0.08); backdrop-filter:blur(16px); border:1px solid var(--glass-border); color:white; text-decoration:none; padding:13px 32px; border-radius:50px; font-size:0.78rem; letter-spacing:0.12em; text-transform:uppercase; font-weight:300; transition:background 0.25s,transform 0.25s; }
 .btn-ghost:hover { background:rgba(255,255,255,0.15); transform:translateY(-3px); }
 
-.hero-scroll { position:absolute; bottom:28px; left:50%; transform:translateX(-50%); display:flex; flex-direction:column; align-items:center; gap:7px; animation:fadeUp 1s 0.8s ease both; }
+.hero-scroll { position:absolute; bottom:28px; left:0; right:0; margin-left:auto; margin-right:auto; width:fit-content; display:flex; flex-direction:column; align-items:center; gap:7px; animation:fadeUp 1s 0.8s ease both; }
 .scroll-line { width:1px; height:46px; background:linear-gradient(to bottom,var(--rose-mid),transparent); animation:scrollPulse 2s infinite; }
 .scroll-text { font-size:0.58rem; letter-spacing:0.28em; color:rgba(255,255,255,0.35); text-transform:uppercase; }
 @keyframes scrollPulse { 0%,100%{opacity:0.35;} 50%{opacity:1;} }
